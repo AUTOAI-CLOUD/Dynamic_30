@@ -230,10 +230,14 @@
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <h2><span class="status-indicator"></span>Battery Dynamic Data</h2>
+            <div class="data-field">
+                <label for="category">BMI + BIS:</label>
+                <input type="text" id="BMI + BIS" value="MY008 1DH800001" disabled>
+            </div>
             
             <div class="data-field">
                 <label for="category">Battery Category:</label>
-                <input type="text" id="category" value="Automotive" disabled>
+                <input type="text" id="category" value="Electric Vehicle Battery" disabled>
             </div>
 
             <!--<div class="data-field">
@@ -248,7 +252,7 @@
 
             <div class="data-field">
                 <label for="soh">State Of Health (SOH):</label>
-                <input type="text" id="soh" value="90%">
+                <input type="text" id="soh" value="80%">
             </div>
 
             <div class="button-group">
@@ -369,3 +373,4 @@
     </script>
 </body>
 </html>
+
